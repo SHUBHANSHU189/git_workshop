@@ -1,0 +1,12 @@
+{
+  "name": "railblock-ai-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "RailBlock AI - Automatic Railway Maintenance Block Planning System",
+  "scripts": {
+    "start": "node scripts/start-all.js",
+    "seed": "npm run seed --prefix backend",
+    "backend": "npm start --prefix backend",
+    "frontend": "npm run dev --prefix frontend"
+  }
+}
